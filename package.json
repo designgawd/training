@@ -1,5 +1,5 @@
 {
-    "name":"Beachbody Build",
+    "name":"Beachbody-hBuild",
     "version":"0.1.0",
     "dependencies": {
         "handlebars": "~1.1.2",
