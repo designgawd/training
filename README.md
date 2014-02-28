@@ -30,10 +30,18 @@ First We must setup you local environment for this training. We are going to use
 **Clone:**
 
     https://github.com/designgawd/training.git
-    or
+        or
     git@github.com:designgawd/training.git
 
-    Pull from master
+Pull from **master**
+
+Create a new branch
+    "**git checkout -b <*branch*>**"
+add your branch to the repository
+    "**git push origin <*branch*>**"
+
+
+Your branch can be used to play with grunt, make changes and explore grunt!  In future training you will be using this branch.
 
 
 package.json
