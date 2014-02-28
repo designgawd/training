@@ -1,17 +1,14 @@
 module.exports = function(grunt){
     "use strict";
 
-
     //Project Configuration
     grunt.initConfig({
         pkg:grunt.file.readJSON('package.json'),
         compass: {
-            dist: {
+            compile: {
                 options: {
-                    sassDir: 'text/us/products/programs/**/*.scss',
+                    sassDir: '',
                     cssDir: '',
-                    specify: '',
-                    banner: '/*! \n<%= pkg.name %> \nLast Updated: <%= grunt.template.today("yyyy-mm-dd") %> */\n',
                     outputStyle: 'compressed'
                 }
             }

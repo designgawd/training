@@ -105,7 +105,7 @@ Resources for Learning Node
 Setting Up Gruntfile.js
 -----
 
-This file is named **Gruntfile.js** and is used to configure or define tasks and load Grunt plugins. The **package.json** file belongs in the root directory of your project, next to the Gruntfile , and should be committed with your project source.
+This file is named **Gruntfile.js** and is used to configure or define tasks and load Grunt plugins. The **package.json** file belongs in the root directory of your project, next to the Gruntfile.js , and should be committed with your project source.
 
 You can use javascript throughout this file to support your tasks. Lets take a look at a basic Gruntfile.js ***grunt.initConfig*** setup.
 
